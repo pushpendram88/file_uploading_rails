@@ -1,0 +1,20 @@
+qdefault: &default
+  adapter: postgresql
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+development:
+  <<: *default
+  adapter: postgresql
+  database: test_job_database
+  username: postgres
+  password: password
+  host: localhost
+  port: 5432
+test:
+  <<: *default
+  adapter: postgresql
+  database: test_job_database
+  username: postgres
+  password: password
+  host: localhost
+  port: 5432

@@ -1,0 +1,16 @@
+current directory: /home/acer/Desktop/test_job/your_project_name/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+/usr/share/rvm/rubies/ruby-3.0.0/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240124-32512-yzgxv2.rb extconf.rb
+creating Makefile
+
+current directory: /home/acer/Desktop/test_job/your_project_name/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/acer/Desktop/test_job/your_project_name/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/acer/Desktop/test_job/your_project_name/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240124-32512-6al7g2/debug

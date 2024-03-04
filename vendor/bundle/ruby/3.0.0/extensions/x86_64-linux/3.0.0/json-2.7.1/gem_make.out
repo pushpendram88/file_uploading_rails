@@ -1,0 +1,13 @@
+current directory: /home/acer/Desktop/test_job/file_upload_rails/vendor/bundle/ruby/3.0.0/gems/json-2.7.1/ext/json
+/usr/share/rvm/rubies/ruby-3.0.0/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240124-34308-61cw7x.rb extconf.rb
+creating Makefile
+
+current directory: /home/acer/Desktop/test_job/file_upload_rails/vendor/bundle/ruby/3.0.0/gems/json-2.7.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/acer/Desktop/test_job/file_upload_rails/vendor/bundle/ruby/3.0.0/gems/json-2.7.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/acer/Desktop/test_job/file_upload_rails/vendor/bundle/ruby/3.0.0/gems/json-2.7.1/ext/json
+make "DESTDIR=" install
